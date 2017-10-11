@@ -1,0 +1,77 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+li {
+	list-style: none;
+
+}
+.box {
+	height: 800px;
+	width: 1000px;
+	background-color: #000;
+	position: relative;
+	margin: 20px auto;
+	overflow: hidden;
+}
+.status {
+	height: 35px;
+	width: 80px;
+	text-align: center;
+	line-height: 35px;
+	font-size: 16px;
+	color: #fff;
+	border:1px solid #fff;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	cursor: pointer;
+}
+#score{
+	color: #fff;
+	font-size: 20px;
+	position: absolute;
+	top: 5px;
+	left: 5px;
+}
+#bee {
+	position: relative;
+}
+.enemy1{
+	width: 40px;
+	height: 40px;
+	background: url(../img/x1.png) no-repeat ;
+	background-size: 100% 100%;
+	float: left;
+}
+.enemy2{
+	width: 40px;
+	height: 40px;
+	background:url(../img/x2.png) no-repeat ;
+	background-size: 100% 100%;
+	float: left;
+}
+.enemy3{
+	width: 40px;
+	height: 40px;
+	background:url(../img/x3.png) no-repeat ;
+	background-size: 100% 100%;
+	float: left;
+}
+.air1 {
+	height: 64px;
+	width: 64px;
+	background: url(../img/fj.png) no-repeat ;
+	background-size: 100% 100%;
+	position: absolute;
+}
+.bullet {
+	width: 5px;
+	overflow: hidden;
+	height: 10px;
+	background: #fff;
+	position: absolute;
+}
